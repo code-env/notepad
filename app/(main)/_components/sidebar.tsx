@@ -15,7 +15,7 @@ const Sidebar = () => {
     <aside className="h-screen w-[300px] border-r flex flex-col">
       <Link
         className="flex items-center h-16 px-6  border-gray-200  dark:border-gray-800 "
-        href="/dashboard"
+        href="/home"
       >
         <Logo />
       </Link>

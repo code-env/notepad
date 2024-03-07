@@ -6,19 +6,19 @@ import GlobalProviders from "@/providers";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Fiango",
-  description: "Create forms and track them using Fiango today.",
+  title: "Notpadd",
+  description: "Create notes and track them using Notpadd today.",
   icons: {
     icon: [
       {
         media: "(prefers-color-scheme: light)",
-        url: "/fiango-dark.svg",
-        href: "/fiango-dark.svg",
+        url: "/notpadd-dark.svg",
+        href: "/notpadd-dark.svg",
       },
       {
         media: "(prefers-color-scheme: dark)",
-        url: "/fiango-light.svg",
-        href: "/fiango-light.svg",
+        url: "/notpadd-light.svg",
+        href: "/notpadd-light.svg",
       },
     ],
   },

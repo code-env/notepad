@@ -4,8 +4,8 @@ import SettingsSidbar from "./sidebar";
 const SettingsLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <main className="flex h-full">
-      <SettingsSidbar />
-      <div className="flex-[3]">{children}</div>
+      {/* <SettingsSidbar /> */}
+      <div className="flex-[3] p-4">{children}</div>
     </main>
   );
 };
