@@ -1,11 +1,4 @@
-import {
-  Beaker,
-  CreditCard,
-  GanttChart,
-  Library,
-  LucideLayoutGrid,
-  Settings2,
-} from "lucide-react";
+import { Beaker, CreditCard, GanttChart, Home } from "lucide-react";
 import { useMemo } from "react";
 
 export const promptExplanation =
@@ -15,24 +8,20 @@ export const useSidebarRoutes = () =>
   useMemo(() => {
     const routes = [
       {
-        name: "Dashboard",
-        path: "dashboard",
-        icon: LucideLayoutGrid,
+        name: "Home",
+        path: "home",
+        icon: Home,
       },
+
       {
-        name: "Forms",
-        path: "forms",
-        icon: Library,
-      },
-      {
-        name: "Analytics",
-        path: "analytics",
+        name: "Settings",
+        path: "settings",
         icon: GanttChart,
       },
       {
-        name: "Settings",
-        path: "settings/preferences",
-        icon: Settings2,
+        name: "Billing",
+        path: "settings",
+        icon: CreditCard,
       },
     ];
 
