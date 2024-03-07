@@ -20,7 +20,7 @@ export const useSidebarRoutes = () =>
       },
       {
         name: "Billing",
-        path: "settings",
+        path: "billing",
         icon: CreditCard,
       },
     ];
