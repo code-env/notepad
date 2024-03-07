@@ -7,6 +7,7 @@ import { Button, buttonVariants } from "./ui/button";
 import { Cable, Moon, Sun } from "lucide-react";
 import { useTheme } from "next-themes";
 import { cn } from "@/lib/utils";
+import Link from "next/link";
 
 const Footer = () => {
   const { setTheme, theme: userTheme } = useTheme();
@@ -68,7 +69,16 @@ const Footer = () => {
             </div> */}
           </div>
           <div className="text-center">
-            <p className="dark:text-gray-500">@code-env</p>
+            <p className="dark:text-gray-500">
+              made by{" "}
+              <Link
+                href="https://github.com/code-env"
+                target="_blank"
+                className="transition duration-300 hover:underline"
+              >
+                @code-env
+              </Link>
+            </p>
           </div>
         </div>
       </div>
